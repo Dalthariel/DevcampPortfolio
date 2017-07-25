@@ -24,6 +24,7 @@ puts "10 blog posts created"
 
 5.times do |skill|
 	Skill.create!(
+    portfolio-feature
 			title: "Skill name #{skill}",
 			percent_utilized: 18
 	)

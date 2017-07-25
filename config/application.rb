@@ -21,5 +21,8 @@ module DevcampPortfolio
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+
+    # v Never actually do this on a public facing site. v
+    # config.action_controller.permit_all_parameters = true
   end
 end
